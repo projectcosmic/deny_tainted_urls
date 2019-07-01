@@ -1,0 +1,6 @@
+services:
+  deny_tainted_urls.deny_tainted_urls_render_cache:
+    class: Drupal\deny_tainted_urls\Render\DenyTaintedUrlsRenderCache
+    decorates: render_cache
+    arguments: ['@deny_tainted_urls.deny_tainted_urls_render_cache.inner', '@request_stack']
+    public: false

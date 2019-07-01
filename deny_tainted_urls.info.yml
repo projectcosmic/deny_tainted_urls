@@ -1,0 +1,5 @@
+name: Deny Tainted URLs
+description: Reduces the appearance of undesired URL patterns in markup.
+type: module
+core: 8.x
+project: deny_tainted_urls
