@@ -2,4 +2,5 @@ name: Deny Tainted URLs
 description: Reduces the appearance of undesired URL patterns in markup.
 type: module
 core: 8.x
+core_version_requirement: ^8 || ^9
 project: deny_tainted_urls
